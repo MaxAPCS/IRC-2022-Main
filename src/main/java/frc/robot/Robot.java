@@ -13,7 +13,7 @@ import frc.robot.commands.Drive;
 public class Robot extends TimedRobot {
   private Joystick lj, rj;
 
-  private Drivetrain drivetrain = new Drivetrain(0, 1);
+  private Drivetrain drivetrain = new Drivetrain(1, 2);
   private Drive drive;
 
   @Override
